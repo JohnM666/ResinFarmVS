@@ -1,0 +1,11 @@
+{
+  "type": "code",
+  "modid": "resinfarm",
+  "name": "ResinFarm",
+  "authors": ["JohnM666"],
+  "description": "Added the ability to cut bark with knife to obtain resin with some chance",
+  "version": "1.0.0",
+  "dependencies": {
+    "game": "1.17.10"
+  }
+}

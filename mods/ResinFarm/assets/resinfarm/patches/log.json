@@ -1,0 +1,164 @@
+[
+  {
+    "file": "game:blocktypes/wood/woodtyped/log",
+    "op": "add",
+    "path": "/behaviorsByType",
+    "value": {
+      "log-grown-pine-*": [
+        {
+          "name": "BarkCuttable",
+          "properties": {
+            "tools": [ "game:knife-*" ],
+            "duration": 2.0,
+            "chance": 0.2
+          }
+        }
+      ],
+      "log-grown-acacia-*": [
+        {
+          "name": "BarkCuttable",
+          "properties": {
+            "tools": [ "game:knife-*" ],
+            "duration": 2.0,
+            "chance": 0.2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "file": "game:blocktypes/wood/woodtyped/log-withresin",
+    "op": "replace",
+    "path": "/behaviorsByType/*/1/properties/harvestedBlockCode",
+    "value": "log-resinharvested-{wood}-{rotation}"
+  },
+  {
+    "file": "game:blocktypes/wood/woodtyped/log-withresin",
+    "op": "replace",
+    "path": "/attributesByType/log-resinharvested-*/transientProps/convertFrom",
+    "value": "log-resinharvested-{wood}-{rotation}"
+  },
+  {
+    "file": "game:blocktypes/wood/woodtyped/log-withresin",
+    "op": "replace",
+    "path": "/attributesByType/log-resinharvested-*/transientProps/convertTo",
+    "value": "log-resin-{wood}-{rotation}"
+  },
+  {
+    "file": "game:blocktypes/wood/woodtyped/log-withresin",
+    "op": "replace",
+    "path": "/variantgroups/2/states",
+    "value": [
+      "ud",
+      "north",
+      "south",
+      "west",
+      "east"
+    ]
+  },
+  {
+    "file": "game:blocktypes/wood/woodtyped/log-withresin",
+    "replace": "replace",
+    "path": "/shapeByType",
+    "value": {
+      "log-resinharvested-*-ud": {
+        "base": "block/wood/log/noresin1",
+        "alternates": [
+          {
+            "base": "block/wood/log/noresin1",
+            "rotateY": 90
+          },
+          {
+            "base": "block/wood/log/noresin1",
+            "rotateY": 180
+          },
+          {
+            "base": "block/wood/log/noresin1",
+            "rotateY": 270
+          },
+          {
+            "base": "block/wood/log/noresin2",
+            "rotateY": 0
+          },
+          {
+            "base": "block/wood/log/noresin2",
+            "rotateY": 90
+          },
+          {
+            "base": "block/wood/log/noresin2",
+            "rotateY": 180
+          },
+          {
+            "base": "block/wood/log/noresin2",
+            "rotateY": 270
+          }
+        ]
+      },
+      "log-resinharvested-*-south": {
+        "base": "block/wood/log/noresin1",
+        "rotateY": 0
+      },
+      "log-resinharvested-*-north": {
+        "base": "block/wood/log/noresin1",
+        "rotateY": 180
+      },
+      "log-resinharvested-*-east": {
+        "base": "block/wood/log/noresin1",
+        "rotateY": 90
+      },
+      "log-resinharvested-*-west": {
+        "base": "block/wood/log/noresin1",
+        "rotateY": 270
+      },
+      "*-south": {
+        "base": "block/wood/log/withresin1",
+        "rotateY": 0
+      },
+      "*-north": {
+        "base": "block/wood/log/withresin1",
+        "rotateY": 180
+      },
+      "*-east": {
+        "base": "block/wood/log/withresin1",
+        "rotateY": 90
+      },
+      "*-west": {
+        "base": "block/wood/log/withresin1",
+        "rotateY": 270
+      },
+      "*-ud": {
+        "base": "block/wood/log/withresin1",
+        "alternates": [
+          {
+            "base": "block/wood/log/withresin1",
+            "rotateY": 90
+          },
+          {
+            "base": "block/wood/log/withresin1",
+            "rotateY": 180
+          },
+          {
+            "base": "block/wood/log/withresin1",
+            "rotateY": 270
+          },
+          {
+            "base": "block/wood/log/withresin2",
+            "rotateY": 0
+          },
+          {
+            "base": "block/wood/log/withresin2",
+            "rotateY": 90
+          },
+          {
+            "base": "block/wood/log/withresin2",
+            "rotateY": 180
+          },
+          {
+            "base": "block/wood/log/withresin2",
+            "rotateY": 270
+          }
+        ]
+      }
+    }
+  }
+]

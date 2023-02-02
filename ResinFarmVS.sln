@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResinFarm", "mods\ResinFarm\ResinFarm.csproj", "{F39ABA32-2A74-4E74-B10B-15507ECC78C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release x64|Any CPU = Release x64|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F39ABA32-2A74-4E74-B10B-15507ECC78C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F39ABA32-2A74-4E74-B10B-15507ECC78C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F39ABA32-2A74-4E74-B10B-15507ECC78C5}.Release x64|Any CPU.ActiveCfg = Release|Any CPU
+		{F39ABA32-2A74-4E74-B10B-15507ECC78C5}.Release x64|Any CPU.Build.0 = Release|Any CPU
+		{F39ABA32-2A74-4E74-B10B-15507ECC78C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F39ABA32-2A74-4E74-B10B-15507ECC78C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26630D08-373A-4935-AEEC-2864013A5F5B}
+	EndGlobalSection
+EndGlobal
